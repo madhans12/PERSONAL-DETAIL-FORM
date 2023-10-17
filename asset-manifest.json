@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/PERSONAL-DETAIL-FORM/static/css/main.3f7f836c.css",
+    "main.js": "/PERSONAL-DETAIL-FORM/static/js/main.a8ad409d.js",
+    "static/js/787.d95b18bc.chunk.js": "/PERSONAL-DETAIL-FORM/static/js/787.d95b18bc.chunk.js",
+    "static/media/logo.svg": "/PERSONAL-DETAIL-FORM/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/PERSONAL-DETAIL-FORM/index.html",
+    "main.3f7f836c.css.map": "/PERSONAL-DETAIL-FORM/static/css/main.3f7f836c.css.map",
+    "main.a8ad409d.js.map": "/PERSONAL-DETAIL-FORM/static/js/main.a8ad409d.js.map",
+    "787.d95b18bc.chunk.js.map": "/PERSONAL-DETAIL-FORM/static/js/787.d95b18bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f7f836c.css",
+    "static/js/main.a8ad409d.js"
+  ]
+}
