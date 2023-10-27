@@ -1,6 +1,7 @@
 *{
   padding: 0%;
   margin: 0%;
+  box-sizing: border-box;
 }
 
 body{
@@ -11,7 +12,6 @@ table,tr,td,th{
   border-collapse: collapse;
   background-color: azure;
 }
-
 .row-1,.row-2,.row-3,.btn{
   display: flex;
   justify-content: center;
@@ -29,6 +29,7 @@ button{
 button:hover{
   color: black;
   background-color: aquamarine;
+  border: none;
 }
 .details{
 
@@ -60,19 +61,19 @@ h1{
   min-width: 100vh;
   display: flex;
   justify-content: center;
-  max-height: 30vh;
+  align-items: center;
+  flex-direction: column;
+  max-height: 25vh;
   position: relative;
   overflow-x:auto;
   scroll-behavior: smooth;
-  z-index: 1;
-
-
 }
 
 th{
   position: sticky;
   top: 0%;
   z-index: 1;
+/* outline: 1px solid black; */
 }
 .ip{
   min-width: 40vh;
@@ -84,12 +85,10 @@ label{
   font-size: large;
  
 }
-.delete:hover{
-  color: white;
-  background-color: red;
+.home-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.empty{
-border: 1px solid aliceblue;
-background-color: aliceblue;
 
-}
