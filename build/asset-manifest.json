@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/PERSONAL-DETAIL-FORM/static/css/main.a84a2718.css",
-    "main.js": "/PERSONAL-DETAIL-FORM/static/js/main.cf5852ab.js",
-    "static/js/787.d95b18bc.chunk.js": "/PERSONAL-DETAIL-FORM/static/js/787.d95b18bc.chunk.js",
-    "index.html": "/PERSONAL-DETAIL-FORM/index.html",
-    "main.a84a2718.css.map": "/PERSONAL-DETAIL-FORM/static/css/main.a84a2718.css.map",
-    "main.cf5852ab.js.map": "/PERSONAL-DETAIL-FORM/static/js/main.cf5852ab.js.map",
-    "787.d95b18bc.chunk.js.map": "/PERSONAL-DETAIL-FORM/static/js/787.d95b18bc.chunk.js.map"
+    "main.css": "/https//:github.io/presonal-detail-form/static/css/main.edba0a49.css",
+    "main.js": "/https//:github.io/presonal-detail-form/static/js/main.193dabde.js",
+    "static/js/787.d95b18bc.chunk.js": "/https//:github.io/presonal-detail-form/static/js/787.d95b18bc.chunk.js",
+    "index.html": "/https//:github.io/presonal-detail-form/index.html",
+    "main.edba0a49.css.map": "/https//:github.io/presonal-detail-form/static/css/main.edba0a49.css.map",
+    "main.193dabde.js.map": "/https//:github.io/presonal-detail-form/static/js/main.193dabde.js.map",
+    "787.d95b18bc.chunk.js.map": "/https//:github.io/presonal-detail-form/static/js/787.d95b18bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a84a2718.css",
-    "static/js/main.cf5852ab.js"
+    "static/css/main.edba0a49.css",
+    "static/js/main.193dabde.js"
   ]
 }
