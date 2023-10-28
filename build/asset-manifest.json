@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/https//:madhans12.github.io/presonal-detail-form/static/css/main.edba0a49.css",
-    "main.js": "/https//:madhans12.github.io/presonal-detail-form/static/js/main.e4184f87.js",
-    "static/js/787.d95b18bc.chunk.js": "/https//:madhans12.github.io/presonal-detail-form/static/js/787.d95b18bc.chunk.js",
-    "index.html": "/https//:madhans12.github.io/presonal-detail-form/index.html",
-    "main.edba0a49.css.map": "/https//:madhans12.github.io/presonal-detail-form/static/css/main.edba0a49.css.map",
-    "main.e4184f87.js.map": "/https//:madhans12.github.io/presonal-detail-form/static/js/main.e4184f87.js.map",
-    "787.d95b18bc.chunk.js.map": "/https//:madhans12.github.io/presonal-detail-form/static/js/787.d95b18bc.chunk.js.map"
+    "main.css": "/PERSONAL-DETAIL-FORM/static/css/main.edba0a49.css",
+    "main.js": "/PERSONAL-DETAIL-FORM/static/js/main.f33ab6e5.js",
+    "static/js/787.d95b18bc.chunk.js": "/PERSONAL-DETAIL-FORM/static/js/787.d95b18bc.chunk.js",
+    "index.html": "/PERSONAL-DETAIL-FORM/index.html",
+    "main.edba0a49.css.map": "/PERSONAL-DETAIL-FORM/static/css/main.edba0a49.css.map",
+    "main.f33ab6e5.js.map": "/PERSONAL-DETAIL-FORM/static/js/main.f33ab6e5.js.map",
+    "787.d95b18bc.chunk.js.map": "/PERSONAL-DETAIL-FORM/static/js/787.d95b18bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.edba0a49.css",
-    "static/js/main.e4184f87.js"
+    "static/js/main.f33ab6e5.js"
   ]
 }
