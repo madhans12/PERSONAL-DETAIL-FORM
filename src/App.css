@@ -7,9 +7,12 @@
 body{
   background-color: aliceblue;
 }
-table,tr,td,th{
-  border: 1px solid black;
+table{
   border-collapse: collapse;
+  width: 100%;
+}
+td,th{
+  border: 1px solid black;
   background-color: azure;
 }
 .row-1,.row-2,.row-3,.btn{
@@ -19,16 +22,16 @@ table,tr,td,th{
   gap: 10vh;
   padding-top: 50px;
 }
-.btn{
-  padding-bottom: 20px;
-}
+
 button{
   height: 4vh;
   width: 10vh;
+  border-radius: 5px;
+  border: none;
 }
-button:hover{
-  color: black;
-  background-color: aquamarine;
+button:hover  {
+  color: white;
+  background-color:green;
   border: none;
 }
 .details{
@@ -57,27 +60,32 @@ h1{
   padding-top: 20px;
 }
 .table-data{
-
-  min-width: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  max-height: 25vh;
-  position: relative;
+  margin: 50px 0;
+width: 80%;
+  max-height: 80%;
   overflow-x:auto;
   scroll-behavior: smooth;
 }
 
-th{
+thead{
   position: sticky;
   top: 0%;
   z-index: 1;
-/* outline: 1px solid black; */
+
 }
 .ip{
-  min-width: 40vh;
+  font-style: italic;
 }
+ .link{
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+/* background-color: white; */
+}
+button:hover .link{
+  color: white;
+}
+
 td,th{
   padding:5px  ;
 }
@@ -85,10 +93,25 @@ label{
   font-size: large;
  
 }
-.home-page{
+.home-page,.data-details{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-
+.details-btn{
+  margin: 20px 0;
+}
+.details-btn> button{
+  margin: 0 5px;
+}
+.data-details{
+  background-color: white;
+margin: 10vh;
+}
+.heading{
+  text-decoration: underline;
+}
+tr>button{
+  margin:  5px;
+}

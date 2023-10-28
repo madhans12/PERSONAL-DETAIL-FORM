@@ -1,9 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./App.css";
 import { useState } from "react";
 import axios from "axios";
 
 function AddData() {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     FirstName: "",
     LastName: "",
@@ -50,15 +51,7 @@ function AddData() {
         }
       })();
 
-      setFormData({
-        FirstName: "",
-        LastName: "",
-        Gender: "",
-        DoB: "",
-        Email: "",
-        Mobile: "",
-        location: "",
-      });
+      navigate("/");
     }
   };
 
@@ -142,13 +135,13 @@ function AddData() {
             Location :
             <select
               name="location"
-              value={formData.location}
               onChange={(e) => {
-                console.log(e.target.value);
                 setFormData({ ...formData, location: e.target.value });
               }}
             >
-              <option value="">location</option>
+              <option disabled selected value>
+                Please select an Option
+              </option>
               <option value="Chennai">Chennai</option>
               <option value="Bangalore">Bangalore</option>
               <option value="Coimbatore">Coimbatore</option>
@@ -186,7 +179,9 @@ function AddData() {
         <div className="btn">
           <button onClick={submitData}> SUBMIT</button>
           <button>
-            <Link to="/">BACK</Link>
+            <Link to="/" className="link">
+              BACK
+            </Link>
           </button>
         </div>
       </div>

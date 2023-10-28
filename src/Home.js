@@ -1,23 +1,25 @@
 import React, { useState, useEffect } from "react";
-// import myData from "../db.json";
+import myData from "./db.json";
 import axios from "axios";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./App.css";
 
 const Home = () => {
-  const [total, setTotal] = useState(null);
-
+  const [total, setTotal] = useState([]);
+  const navigate = useNavigate();
   useEffect(() => {
     (async () => {
       try {
         const Response = await axios.get("http://localhost:8000/details");
         setTotal(Response.data);
-        console.log(Response.data);
       } catch (error) {
         alert(error.msg);
       }
     })();
-  }, []);
+  }, [myData]);
+  const EmpDetail = (id) => {
+    navigate("/home/detail/" + id);
+  };
 
   return (
     <div className="home-page">
@@ -51,13 +53,18 @@ const Home = () => {
                 <td className="ip">{totals.Email}</td>
                 <td>{totals.Mobile}</td>
                 <td>{totals.location}</td>
+                <td>
+                  <button onClick={() => EmpDetail(totals.id)}>DETAIL</button>
+                </td>
               </tr>
             </tbody>
           ))}
         </table>
       </div>
       <button>
-        <Link to="/add">ADD +</Link>
+        <Link to="/add" className="link">
+          ADD +
+        </Link>
       </button>
     </div>
   );

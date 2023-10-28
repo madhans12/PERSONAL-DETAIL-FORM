@@ -1,0 +1,24 @@
+{
+  "details": [
+    {
+      "FirstName": "madhan",
+      "LastName": "s",
+      "Gender": "Male",
+      "DoB": "2023-10-04",
+      "Email": "madhanm206@gmail.com",
+      "Mobile": "1234567890",
+      "location": "Coimbatore",
+      "id": 1
+    },
+    {
+      "FirstName": "madhan",
+      "LastName": "sdfas",
+      "Gender": "Male",
+      "DoB": "2023-10-04",
+      "Email": "madhanm206@gmail.com",
+      "Mobile": "1234567680",
+      "location": "Chennai",
+      "id": 2
+    }
+  ]
+}
